@@ -17,4 +17,4 @@ function load_jscripts(){
 	wp_register_script('theme_scripts', get_template_directory_uri().'/js/theme_scripts.js','',true);
 	wp_enqueue_script('theme_scripts');
 }
-add_action('wp_enqueue_script','load_jscripts');
+add_action('wp_enqueue_scripts','load_jscripts');
